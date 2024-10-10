@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --azul-vibrante: #007BFF;
+    --verde-lima: #28A745;
+    --gris-claro: #F8F9FA;
+    --negro: #212529;
+    --gris-oscuro: #6C757D;
+    --verde-suave: #17A2B8;
+    --naranja-advertencia: #FFC107;
+    --naranja-metalica: #ff6607;
+    --blanco: #ffffff;
+}
+
+.header{
+    background-color: var(--naranja-metalica);
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    height: 10vh;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.header .parte1 {
+   color: #ffffff;
+   display: flex;
+   gap: 20px;
+}
+
